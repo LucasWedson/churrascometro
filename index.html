@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css"/>
+    
+    <title>Churrascômetro</title>
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="grid">
+          <div class="text-content">
+            <h1>
+
+
+              Veja o que precisa para seu churrasco!
+            </h1>
+            <img src="./assets/cozinhandopro.jpg" alt="" />
+          </div>
+          
+          <div class="box-calculo">
+            <img src="./assets/grelhachurras.jpg" alt="" />
+            <div class="form">
+              <div class="input-block">
+                <label for="adultos">Quantidade de adultos</label>
+                <input
+                  type="number"
+                  name="adultos"
+                  id="adultos"
+                  placeholder="Adultos"
+                />
+              </div>
+              <div class="input-block">
+                <label for="criancas">Quantidade de crianças</label>
+                <input
+                  type="number"
+                  name="criancas"
+                  id="criancas"
+                  placeholder="Crianças"
+                />
+              </div>
+              <div class="input-block">
+                <label for="duracao">Duração do churrasco</label>
+                <input
+                  type="number"
+                  name="duracao"
+                  id="duracao"
+                  placeholder="Duração (h)"
+                />
+              </div>
+              <div class="input-block">
+                <button onclick="calcular()">Calcular</button>
+              </div>
+            </div>
+  
+            <div id="resultado"></div>
+  
+            
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <script src="./scripts/script.js"></script>
+
+</body>
+</html>
